@@ -1,0 +1,14 @@
+.park-card-list {
+    width: 90%;
+    margin: 0 auto;
+}
+.park-cards-container {
+      display: flex;
+      justify-content: space-around; 
+      flex-wrap: wrap; 
+ }
+  
+.park-list-title {
+      text-align: center;
+      margin-bottom: 20px; 
+}
