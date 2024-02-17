@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './LoginSignUp.css';
 
-import user_icon from 'C:/Users/sarah/ElleHacks2024_Project/CoolPaws/frontend/src/assets/person.png';
-import email_icon from 'C:/Users/sarah/ElleHacks2024_Project/CoolPaws/frontend/src/assets/email.png';
-import password_icon from 'C:/Users/sarah/ElleHacks2024_Project/CoolPaws/frontend/src/assets/password.png';
+import user_icon from './assets/email.png';
+import email_icon from './assets/email.png';
+import password_icon from './assets/password.png';
 
 export const LoginSignUp = () => {
     const [action, setAction] = useState("Sign Up"); // Sets variable
