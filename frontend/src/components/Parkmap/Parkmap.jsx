@@ -17,7 +17,7 @@ const dogParks = [
 
 const Parkmap = () => {
   return (
-    <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '400px', width: '100%' }}>
+    <MapContainer className='park-map'center={[51.505, -0.09]} zoom={12} style={{ height: '400px', width: '65%' }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'

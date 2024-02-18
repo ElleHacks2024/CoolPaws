@@ -5,6 +5,7 @@ import Healthmonitoring from './pages/Healthmonitoring/Healthmonitoring'
 import Schedules from './pages/Schedules/Schedules'
 import Dashboard from './pages/Dashboard/Dashboard'
 import Sidebar from './components/Sidebar/Sidebar'
+import Parkmap from './components/Parkmap/Parkmap'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -20,6 +21,7 @@ function App() {
               <Route path="/vaccination-schedule" element={<Schedules className='list-and-map-right' />} />
               <Route path="/" element={<Dashboard className='list-and-map-right' />} />
               <Route path="/dashboard" element={<Dashboard className='list-and-map-right' />} />
+              <Route path="/dog-parks" element={<Parkmap className='list-and-map-right' />} />
             </Routes>
           </div>
         
