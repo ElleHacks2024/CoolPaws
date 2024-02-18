@@ -8,5 +8,10 @@
     outline: none;
   }
   
-
+.park-map{
+  position: fixed; /* Fixed positioning relative to the viewport */
+  top: 50%; /* Position the element in the middle vertically */
+  right: 0; /* Align it to the right side of the screen */
+  
+}
  
