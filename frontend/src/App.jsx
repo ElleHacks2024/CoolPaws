@@ -1,3 +1,6 @@
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
 import { useState } from 'react'
 import './App.css'
 import Listandmap from './pages/Listandmap/Listandmap'
@@ -9,11 +12,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
-  
 
   return (
     <Router>
-    
           <div className="list-and-map">
             <Sidebar className='list-and-map-left'/>
             <Routes>
@@ -29,4 +30,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
