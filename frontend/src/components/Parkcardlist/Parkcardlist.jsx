@@ -87,7 +87,7 @@ function Parkcardlist() {
  
   return (
     <div className="park-card-list">
-      <h2 className="park-list-title">Places near you</h2>
+      <h1 className="park-list-title">Places near you</h1>
       <input
         className="search-input"
         type="text"

@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
-import { useState } from 'react'
 import './App.css'
 import Listandmap from './pages/Listandmap/Listandmap'
 import Healthmonitoring from './pages/Healthmonitoring/Healthmonitoring'

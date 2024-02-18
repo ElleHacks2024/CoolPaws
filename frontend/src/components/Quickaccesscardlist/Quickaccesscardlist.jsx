@@ -5,7 +5,7 @@ import './Quickaccesscardlist.css';
 const QuickAccessCardList = ({ cards }) => {
   return (
     <div className="quick-access-card-list">
-      <div className="quick-access-header">Quick Access</div>
+      <h1 className="quick-access-header">Quick Access</h1>
       <div className="quick-access-container">
         {cards.map((card, index) => (
           <QuickAccessCard key={index} title={card.title} image={card.image} />
