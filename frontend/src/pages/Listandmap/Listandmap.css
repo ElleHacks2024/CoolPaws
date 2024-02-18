@@ -1,0 +1,25 @@
+.go-to-map-span {
+    display: inline-block;
+    margin:1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    width:20%;
+    /* Add hover effects, transitions, or other styles as desired */
+  }
+  .list-and-map{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .list-and-map-left{
+    
+    width:30%;
+  }
+  .list-and-map-right{
+    margin-left: auto;
+    width:80%;
+  }

@@ -1,0 +1,13 @@
+.metric {
+    margin-bottom: 20px;
+  }
+  
+  .metric-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .metric-title h2 {
+    margin-left: 10px;
+  }

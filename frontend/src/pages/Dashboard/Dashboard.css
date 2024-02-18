@@ -1,0 +1,15 @@
+.dashboard-container{
+    margin-left: auto;
+    width:70%;
+    display:flex;
+    gap:5rem;
+  }
+  /* @media (max-width: 800px) {
+    .dashboard-left{
+      width: 80px;
+    }
+  } */
+  .dashboard-left{
+    
+    
+  }
