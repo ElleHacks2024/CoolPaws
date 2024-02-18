@@ -2,36 +2,32 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Listandmap from './pages/Listandmap/Listandmap'
+import Healthmonitoring from './pages/Healthmonitoring/Healthmonitoring'
+import Schedules from './pages/Schedules/Schedules'
+import Dashboard from './pages/Dashboard/Dashboard'
+import Sidebar from './components/Sidebar/Sidebar'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 function App() {
 
-  const [count, setCount] = useState(0);
   return (
     <Router>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>Increment</button>
-        <div>Count is {count}</div>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+          <div className="list-and-map">
+            <Sidebar className='list-and-map-left'/>
+            <Routes>
+              <Route path="/find-parks" element={<Listandmap className='list-and-map-right' />} />
+              <Route path="/health-monitoring" element={<Healthmonitoring className='list-and-map-right' />} />  
+              <Route path="/vaccination-schedule" element={<Schedules className='list-and-map-right' />} />
+              <Route path="/" element={<Dashboard className='list-and-map-right' />} />
+              <Route path="/dashboard" element={<Dashboard className='list-and-map-right' />} />
+            </Routes>
+          </div>
+        
     </Router>
-  );
+  )
 }
 
 export default App;

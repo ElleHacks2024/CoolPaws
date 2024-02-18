@@ -1,0 +1,22 @@
+.quick-access-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px;
+    padding:10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
+  }
+  
+  .quick-access-image {
+    border-radius: 50%;
+    object-fit: cover; 
+    width:5rem;
+    height:5rem;
+  }
+  
+  .quick-access-title {
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+  }

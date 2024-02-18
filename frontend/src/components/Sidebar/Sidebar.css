@@ -1,0 +1,74 @@
+/* Sidebar.css */
+.sidebar {
+    width: 250px; /* Width of the sidebar */
+    height: 100vh; /* Height of the sidebar, fills the full viewport height */
+    background-color: #f4f4f4; /* Background color of the sidebar */
+    position: fixed; /* Fixed position, sidebar stays in place when scrolling */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    overflow-y: auto; /* Allow scrolling if content exceeds the viewport height */
+  }
+  
+  .sidebar-header {
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Vertically center align the items */
+    justify-content: center; /* Vertically center content */
+    padding: 20pxF; /* Padding inside the header */
+  }
+  
+  .sidebar-header img {
+    width: 50px; /* Width of the logo image */
+    height: 50px; /* Height of the logo image */
+    margin-right: 10px; /* Space between logo image and title text */
+  }
+  
+  .sidebar-header h1 {
+    margin: 0;
+    color: #333; /* Color of the title */
+    font-size: 24px; /* Font size of the title */
+  }
+  
+  .sidebar-section {
+    margin-top: 20px; /* Space between sections */
+  }
+  
+  .sidebar-section p {
+    color: #333; /* Color of the section title */
+    font-size: 16px; /* Font size of the section title */
+    padding-left: 20px; /* Padding inside the section title */
+    margin: 10px 0; /* Margin around the section title */
+  }
+  
+  .menu-item {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Vertically center align items */
+    padding: 10px 20px; /* Padding inside each menu item */
+    color: #333; /* Text color for the menu item */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Font size for the menu item */
+    transition: background-color 0.3s; /* Transition effect for background color on hover */
+  }
+  
+  .menu-item img {
+    width: 24px; /* Size of the menu item icon */
+    margin-right: 10px; /* Space between the icon and the text */
+  }
+  
+  .menu-item:hover {
+    background-color: #ddd; /* Background color of the menu item on hover */
+  }
+  
+  .menu-item.active {
+    background-color: #8585f3; /* Background color of the active menu item */
+  }
+  .sidebar-title{
+    color: #333; /* Text color for the menu item */
+    font-size: 18px; /* Font size for the menu item */
+    font-weight: bold;
+  
+  }
+
+
+
+  

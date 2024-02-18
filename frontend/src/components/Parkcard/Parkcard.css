@@ -1,0 +1,80 @@
+.card {
+  color: white; 
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 25%;
+    margin: auto;
+    background-size: cover; /* Cover the entire area of the card */
+    background-position: center; /* Center the background image */
+    overflow: hidden;
+    position: relative;
+    height: 10rem; /* Set a fixed height, or adjust as necessary */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+ 
+  .card-title {
+    margin: 0;
+    font-size: 1rem; 
+  }
+  
+  .card-text {
+    margin: 0;
+    font-size: 0.9rem; /* Adjust as needed */
+  }
+  
+  .badge {
+    margin-right: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #98ABEE; 
+    color:#F9E8C9;
+    padding: 10px 20px; /* Top/bottom padding and left/right padding */
+    margin-top: 10px; /* Space above the button */
+    margin-bottom: 10px; /* Space below the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 1rem; /* Adjust font size as necessary */
+    cursor: pointer; /* Cursor indicates clickable button */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Allows margins to be applied */
+    transition: background-color 0.3s;
+  }
+  .btn-primary:hover {
+    background-color: #1D24CA; /* Darker shade when hovering */
+  }
+  
+  .icon-text-container {
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .icon-text-item {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center-align the items */
+    margin: 0 10px; /* Optional margin for spacing between icon-text pairs */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .card-title {
+      font-size: 0.8rem; 
+    }
+    .card-text {
+      font-size: 0.6rem; /* Adjust as needed */
+    }
+    .btn-primary {
+      padding: 5px 10px; /* Adjust padding as needed */
+      font-size: 0.8rem; /* Adjust font size as necessary */
+    }
+  }
+  
